@@ -27,7 +27,7 @@ console.log(`"101" number is even : ${returnValue}`);
 console.log(`==================================3============================`);
 function wordLength(string){
     var resultlength=string.length;
-    var result=resultlength%2==0?  "EVEN": "ODD";
+    var result=resultlength%2==0 ?  "EVEN": "ODD";
     return result;
 }
 var result=wordLength("JavaScript");
