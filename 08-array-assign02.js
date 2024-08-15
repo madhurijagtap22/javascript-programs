@@ -24,12 +24,39 @@ for (const element of array) {
     }    
 }
 
+console.log(`===========================6==========================`);
+let additionOne=0;
+for (let index = 0; index < array.length; index++) {
+    if (index%2==0) {
+        const element=array[index]
+        additionOne=additionOne+element;   
+    }  
+}
+console.log("Even postioned elements addition is :",additionOne);
+
+console.log(`======================7=================================`);
+let additionTwo=0;
+for (let index = 0; index < array.length; index++) {
+    if (index%2==1) {
+        const element=array[index];
+        additionTwo=additionTwo+element    
+    } 
+}
+console.log("Odd postioned elements addition is : ",additionTwo);
+  
+console.log(`=====================8=========================`);
+let arrayThree=array;
+let sumThree=0;
+for (const element of array) {
+    sumThree=sumThree+element;
+}
+console.log("Sum of all elements from array :",sumThree);
+
 console.log(`=====================9========================`);
 for (const element of array) {
     if (element%5==0) {
         console.log(`Multiple of 5 in given array :${element}`);   
-    }
-    
+    }   
 }
 
 console.log(`========================10=====================`);
